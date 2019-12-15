@@ -2,29 +2,24 @@
 #version 1.0
 
 clear
-# Variables
-b='\033[1m'
-u='\033[4m'
-bl='\E[30m'
-r='\E[31m'
-g='\E[32m'
-bu='\E[34m'
-m='\E[35m'
-c='\E[36m'
-w='\E[37m'
-endc='\E[0m'
-enda='\033[0m'
-blue='\e[1;34m'
-cyan='\e[1;36m'
-red='\e[1;31m'
 
-cowsay -f eyes "Termux.id" | lolcat
-figlet -f slant "Termux.id" | lolcat
-echo "  <=====================[]====================>" | lolcat
-echo "  <=====[       BANTU DEPIS SUKARELA WOY]=====>" | lolcat
-echo "  <=====[  Concact Me : SELALU DIHATII  ]=====>" | lolcat
-echo "  <=====================[]====================>" | lolcat
 
+
+#########################
+#CHECK DEPENDICIES
+#########################
+clear
+echo -e $red"   _____         _       _____     _     _ _    "
+echo "  | __  |___ _ _| |_ ___|   __|___| |___|_| |_ "
+echo "  | __ -|  _| | |  _| -_|__   | - | | - | |  _| "
+echo "  |_____|_| |___|_| |___|_____|  _|_|___|_|_| "
+echo "                              |_|             "
+echo -e $lightgreen'-- -- +=[(c) cuma depis | LOVE YOU DEPIS | JANCOK MUMET | ASUU PINGIN NANGIS'
+echo -e $cyan'-- -- +=[ Author: HAMBA ALLAH < YANG PALING SEKSIH >  ]=+ -- -- '
+echo -e " "
+
+
+	  exit
 sleep 1
 
 ###################################################
@@ -50,11 +45,11 @@ echo -e $b "00. Exit${enda}";
 read -p "Pilih Nomernya =>" pil;
 
 case $pil in
-1) nano abc.txt
+1) txr abc.txt
 echo
 
 ;;
-2) nano abcd.txt
+2) txr abcd.txt
 echo
 
 ;;
