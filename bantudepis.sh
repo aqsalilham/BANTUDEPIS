@@ -173,32 +173,11 @@ echo -e $lightgreen'-- -- +=[(c) cuma depis | i love you depis | Pusing | Mumet 
 echo -e $cyan'-- -- +=[ Author: hamba allah < paling seksih >  ]=+ -- -- '
 echo -e " "
 
-if [ $(id -u) != "0" ]; then
-
-      echo -e $red [!]::[Check Dependencies] ;
-      sleep 0.5
-      echo -e $red [✔]::[Check User]: $USER ;
-      echo -e $red [✔]::[Distro]: $distro ;
-      echo -e $red [✔]::[Release]: $rlname ;
-      sleep 0.5
-      echo -e $red [x]::[not root]: you need to be [root] to run this script.;
-      echo ""
    	  sleep 1
 	  exit
 
 
-###################################################
-# CTRL + C
-###################################################
-trap ctrl_c INT
-ctrl_c() {
-clear
-clear
-sleep 1
-exit
 }
-
-
 lagi=1
 while [ $lagi -lt 6 ];
 do
