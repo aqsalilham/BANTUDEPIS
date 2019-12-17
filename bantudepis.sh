@@ -175,12 +175,8 @@ echo -e " "
 
    	  sleep 1
 	  exit
-
-
-}
-lagi=1
-while [ $lagi -lt 6 ];
-do
+	  
+	  
 echo ""
 echo -e $b "1. Pasword TXT${enda}";
 echo -e $b "2. Proxy TXT${enda}";
