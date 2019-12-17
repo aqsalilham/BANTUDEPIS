@@ -177,10 +177,25 @@ echo -e " "
 	  exit
 	  
 	  
+###################################################
+# CTRL + C
+###################################################
+trap ctrl_c INT
+ctrl_c() {
+clear
+clear
+sleep 1
+exit
+}
+
+
+lagi=1
+while [ $lagi -lt 6 ];
+do
 echo ""
 echo -e $b "1. Pasword TXT${enda}";
 echo -e $b "2. Proxy TXT${enda}";
-echo -e $b "3. SIKAT ANJENG${enda}";
+echo -e $b "3. SIKAT BANGSAT${enda}";
 echo -e $b "00. Exit${enda}";
 read -p "Pilih Nomernya =>" pil;
 
@@ -200,7 +215,7 @@ echo
 00) exit
 ;;
 
-*) echo "BANGSAT ANJENG"
+*) echo "Pilih Sesuai List Anjenk"
 esac
 done
 done
