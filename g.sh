@@ -198,7 +198,7 @@ echo -e $b "00. Exit${enda}";
 read -p "Pilih Nomernya =>" pil;
 
 case $pil in
-1) txr abc.txt
+1) txr pass.txt
 echo
 
 ;;
@@ -206,7 +206,7 @@ echo
 echo
 
 ;;
-3) python2 init.py
+3) python2 gg.py
 
 ;;
 
