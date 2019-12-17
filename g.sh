@@ -173,9 +173,7 @@ echo -e $lightgreen'-- -- +=[(c) cuma depis | i love you depis | Pusing | Mumet 
 echo -e $cyan'-- -- +=[ Author: hamba allah < paling seksih >  ]=+ -- -- '
 echo -e " "
 
-   	  sleep 1
-	  exit
-	  
+   	sleep 1
 	  
 ###################################################
 # CTRL + C
