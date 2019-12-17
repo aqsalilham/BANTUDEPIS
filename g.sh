@@ -198,7 +198,7 @@ echo -e $b "00. Exit${enda}";
 read -p "Pilih Nomernya =>" pil;
 
 case $pil in
-1) txr pass.txt
+1) txr abc.txt
 echo
 
 ;;
